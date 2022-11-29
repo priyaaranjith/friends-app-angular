@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./search-friend.component.css']
 })
 export class SearchFriendComponent {
+  Name=""
+
+readValues=()=>
+{
+  let data: any = {
+    Name:this.Name
+  }
+  console.log(data)
+}
 
 }
