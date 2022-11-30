@@ -18,9 +18,6 @@ export class ViewFriendComponent {
   }
 
 
-
-
-
   friends : any = []
 
 }
